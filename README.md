@@ -57,7 +57,7 @@ Ise `npm` to install it
 Then you can require it in node:
 
 ```
- alphabet = require('alphabetjs').print;
+ alphabet = require('alphabetjs').alphabet;
   
 ```
 Then you can use it to print character in shell:

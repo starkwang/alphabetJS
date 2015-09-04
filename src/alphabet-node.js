@@ -628,5 +628,5 @@ function Alphabet(str, mode) {
 }
 
 module.exports = {
-    print : Alphabet
+    alphabet : Alphabet
 }
