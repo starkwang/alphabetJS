@@ -57,13 +57,13 @@ Ise `npm` to install it
 Then you can require it in node:
 
 ```
- alphabet = require('alphabetjs').alphabet;
+ Alphabet = require('alphabetjs');
   
 ```
 Then you can use it to print character in shell:
 
 ```
- console.log(alphabet('KOBE24','planar'));
+ console.log(Alphabet('KOBE24','planar'));
 ```
 
 And then you get:
