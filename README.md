@@ -1,3 +1,8 @@
+
+# AlphabetJS
+
+[![npm version](https://badge.fury.io/js/alphabetjs.svg)](https://badge.fury.io/js/alphabetjs)
+
 ```
 
      /\     |ˉ|         |ˉˉˉˉˉˉˉˉˉ\ |ˉ|      |ˉ|     /\     |ˉˉˉˉˉˉˉˉˉ\ |ˉˉˉˉˉˉˉˉˉˉ||ˉˉˉˉˉˉˉˉˉˉˉ|
@@ -10,7 +15,6 @@
 
 ```
 
-# AlphabetJS
 
 AlphabetJS is a small tool to help you output big English character in console/shell or anyother platform.
 
@@ -54,7 +58,7 @@ And then you get:
 
 ### Alphabet(str,character_type);
 
-`@param {string} str` : `capital letter` or `number`, the string you want to output.
+`@param {string} str` : contains `english character` or `number`, the string you want to output.
 
 `@param {string} character_type` : `'planar'` or `'stereo'` , the style of the character
 
