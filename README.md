@@ -30,13 +30,17 @@ npm install alphabetjs --save
 Then you can require it in node:
 
 ```js
-const Alphabet = require('alphabetjs');
+// commonjs
+const Alphabet = require('alphabetjs')
+
+// es6 module
+import Alphabet from 'alphabetjs'
 ```
 Then you can use it to print character in shell:
 
 ```js
 const str = Alphabet('KOBE24','planar')
-console.log(str);
+console.log(str)
 ```
 
 And then you get:
