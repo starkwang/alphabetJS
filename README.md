@@ -10,60 +10,29 @@
 
 ```
 
-#AlphabetJS
+# AlphabetJS
 
 AlphabetJS is a small tool to help you output big English character in console/shell or anyother platform.
 
 ------
 
-#Usage  
+# Usage  
 
-###In browser
-
-Import `alphabet.js` or `alphabet.min.js`
-
+Use `npm` to install it 
 
 ```
- <script type="text/javascript" src="alphabet.min.js"></script>
-
-```
-
-Then you can use it to print character in console:
-
-```
- console.log(Alphabet('LJB23','stereo'));
-```
-
-And then you get:
-
-```
-|ˉ|ˉ|         |ˉˉˉˉˉˉˉˉˉ|ˉ||ˉˉˉˉˉˉˉˉˉ\ˉ\  /ˉˉˉˉˉˉˉˉ\ˉ\ |ˉˉˉˉˉˉˉˉˉˉ\ˉ\
-| | |         ˉˉˉˉˉ| |ˉ|ˉˉˉ| |ˉ|ˉˉˉ\ | | / /ˉ/ˉˉˉˉ\ \ \ˉˉˉˉˉˉˉˉˉ| |ˉ|
-| | |              | | |   |  ˉˉˉˉˉ  / / ˉˉˉˉ     / /ˉ/|ˉˉˉˉˉˉˉˉ  /ˉ/
-| | |              | | |   | |ˉ|ˉˉˉ\ \ \ |ˉˉˉˉˉˉˉˉ / / ˉˉˉˉˉˉˉˉˉ| \ˉ\
-| | |         \ˉ\ˉ\/ | |   | | |   /  | || |ˉ|ˉˉˉˉˉˉˉ           / |ˉ|
-|  ˉˉˉˉˉˉˉˉ|ˉ| \ ˉˉ / /    |  ˉˉˉˉˉ  / /|  ˉˉˉˉˉˉˉˉ|ˉ||ˉˉˉˉˉˉˉˉ  /ˉ/
-ˉˉˉˉˉˉˉˉˉˉˉˉˉˉ  ˉˉˉˉˉˉ     ˉˉˉˉˉˉˉˉˉˉˉˉ  ˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉˉ 
-```
----------
-
-###In node
-
-Ise `npm` to install it 
-
-```
- npm install alphabetjs
+npm install alphabetjs --save
 ```
 Then you can require it in node:
 
-```
- Alphabet = require('alphabetjs');
-  
+```js
+const Alphabet = require('alphabetjs');
 ```
 Then you can use it to print character in shell:
 
-```
- console.log(Alphabet('KOBE24','planar'));
+```js
+const str = Alphabet('KOBE24','planar')
+console.log(str);
 ```
 
 And then you get:
@@ -81,11 +50,36 @@ And then you get:
 
 
 --------------
-#API
+# API
 
-###Alphabet(str,character_type);
+### Alphabet(str,character_type);
 
 `@param {string} str` : `capital letter` or `number`, the string you want to output.
 
 `@param {string} character_type` : `'planar'` or `'stereo'` , the style of the character
+
+----------
+# License
+
+The MIT License (MIT)
+
+Copyright (c) Weijia Wang <starkwang@126.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
